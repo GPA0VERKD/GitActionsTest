@@ -1,0 +1,7 @@
+name: "jmeter-test"
+description: "runs jmeter test on postgres database"
+jobs:
+  jmeter-test:
+    steps:
+      - name: jmeter-test
+        uses: docker
